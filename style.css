@@ -1,0 +1,240 @@
+.main-color {
+    background-color: rgb(77, 125, 183);
+    border: 2px royalblue solid;
+}
+
+.main-text-color {
+    color: rgb(77, 125, 183);
+}
+
+.section-title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    height: 100px;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+img {
+    width: 100%;
+}
+
+.contact {
+    padding: 2rem;
+    color: white;
+}
+
+.company-name {
+    color: #A04400;
+}
+
+.under-name {
+    color: red;
+}
+
+.name-zone {
+    height: 100%;
+}
+
+.drp {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    text-align: left;
+    width: 100%;
+}
+
+ul.submenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.nav-item:hover {
+    background-color: #F5BC0B;
+}
+
+.nav-item:hover .submenu {
+    display: block;
+}
+
+.submenu-item:hover {
+    background-color: #F5BC0B;
+}
+
+a.submenu-link {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding-left: 10px;
+}
+
+a.submenu-link:hover {
+    color: black;
+}
+
+.nav-item:hover a.nav-link {
+    color: black !important;
+}
+
+.second-color {
+    color: #F5BC0B;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-item a {
+    font-size: large;
+}
+
+.col-1.d-flex img {
+    height: 9rem;
+}
+
+section {
+    padding: 1em;
+}
+
+.construct-card {
+    margin-bottom: 2em;
+    padding: 0.5em;
+}
+
+.construct-img, .construct-img img {
+    height: 12rem;
+    transform: scale(1);
+    transition: transform 1s;
+}
+
+.construct-img{
+    overflow: hidden;
+}
+
+.construct-card:hover{
+    background-color: aquamarine;
+}
+
+.construct-card:hover .construct-title{
+    font-weight: bold;
+}
+
+.construct-card:hover img{
+    transform: scale(1.1);
+}
+
+.construct-title a{
+    color: black;
+    text-decoration: none;
+}
+
+.construct-title {
+    font-size: x-large;
+    text-align: center;
+    margin: 0.5em;
+}
+
+.construct-des {
+    color: gray;
+}
+
+.service {
+    background-image: url(img/brand/4-loi-ich-khi-thue-villa.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 50%;
+    border: 3px white solid;
+    background-color: white;
+    overflow: hidden;
+}
+
+.service-img:hover img{
+    transform: scale(1.1);
+}
+
+.service-img img {
+    width: 100%;
+    height: 20rem;
+    margin: 0;
+    transition: transform 1s;
+}
+
+.service-type {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.service-type a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.service-type a:hover{
+    color: #F5BC0B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.price-card {
+    border-radius: 10px;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.price-card-img img {
+    border: 1px white solid;
+    background-color: #F5BC0B;
+    border-radius: 50%;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.price-card-index {
+    background-color: #F5BC0B;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.price-card-detail a,
+.price-card-detail a:hover {
+    background-color: black;
+    color: #F5BC0B;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.price-title {
+    border-bottom: 1px white solid;
+    font-size: x-large;
+}
+
+.companion-logo {
+    border: 1px black solid;
+}
