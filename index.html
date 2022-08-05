@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/fd1b617bbf.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -20,9 +27,10 @@
                     <img width="100%" src="img/icon/LOGO DUY SANG.jpg" alt="" class="logo">
                 </a>
             </div>
-            <div class="col-9 d-flex flex-column text-center">
+            <div class="col-9 pr-0 d-flex flex-column text-center">
                 <div class="contact main-color">
-                    HOTLINE: 0392710368 A Duy - 0939507370 A Sang
+                    <marquee scrollamount="5" loop="infinite">HOTLINE: 0392710368 A Duy - 0939507370 A Sang</marquee>
+                    
                 </div>
                 <div class="name-zone d-flex flex-column justify-content-center align-items-center">
                     <div class="company-name fs-1 fw-bold pb-4">
@@ -151,16 +159,16 @@
                 <div class="col-5">
                     <img width="100%" src="img/introduce/introduce_1.jpg" alt="">
                 </div>
-                <div class="col-1 d-flex flex-column justify-content-between">
+                <div class="col-2 d-flex flex-column justify-content-between">
                     <img width="100%" src="img/introduce/introduce_2.jpg" alt="">
                     <img width="100%" src="img/introduce/introduce_3.jpg" alt="">
                 </div>
                 <div
-                    class="col-6 d-flex flex-column align-items-center justify-content-evenly fs-4 text-center text-secondary">
+                    class="col-5 d-flex flex-column align-items-center justify-content-evenly fs-4 text-center text-secondary">
                     <u>
                         <h2>Giới thiệu sơ lược</h2>
                     </u>
-                    <p>
+                    <p class="fs-5">
                         Công ty thiết kế nội thất xây dựng Duy Sang tọa lạc tại (#địa chỉ) chuyên thiết kế nội thất nhà
                         ở, biệt thự, chuyên cung cấp vật liệu xây dựng, trực tiếp thi công, đem đến cho khách hàng những
                         ngôi nhà chất lượng, không gian sống thoải mái cùng với các tiện nghi hiện đại. Chi tiết liên hệ
@@ -174,7 +182,7 @@
     <section class="contructed">
         <div class="container">
             <div class="section-title main-text-color">
-                Công trình đã thi công
+                CÔNG TRÌNH ĐÃ THI CÔNG
             </div>
             <div class="row row-cols-4">
                 <div class="col">
@@ -308,8 +316,8 @@
             <div class="section-title second-color">
                 DỊCH VỤ
             </div>
-            <div class="row row-cols-4">
-                <div class="col">
+            <div class="owl-carousel owl-theme owl-service">
+                <div class="owl-service-item">
                     <div class="service-card">
                         <div class="service-img">
                             <a href="#">
@@ -322,7 +330,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="owl-service-item">
                     <div class="service-card">
                         <div class="service-img">
                             <a href="#">
@@ -335,7 +343,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="owl-service-item">
                     <div class="service-card">
                         <div class="service-img">
                             <a href="#">
@@ -348,7 +356,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="owl-service-item">
                     <div class="service-card">
                         <div class="service-img">
                             <a href="#">
@@ -400,7 +408,7 @@
                                 2
                             </div>
                             <div class="price-title">
-                                BÁO GIÁ SỬA NHÀ 2022
+                                BÁO GIÁ SỬA CHỮA NHÀ NĂM 2022
                             </div>
                         </div>
                         <div class="price-card-img d-flex align-items-center">
@@ -422,7 +430,7 @@
                                 3
                             </div>
                             <div class="price-title">
-                                ĐƠN GIÁ SỬA CHỮA NHÀ
+                                ĐƠN GIÁ SỬA CHỮA NHÀ NĂM 2022
                             </div>
                         </div>
                         <div class="price-card-img d-flex align-items-center">
@@ -441,7 +449,7 @@
         </div>
     </section>
     <br>
-    <div class="video container">
+    <section class="video container">
         <div class="section-title main-text-color">
             VIDEO
         </div>
@@ -465,48 +473,39 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <br>
     <section class="companion container">
         <div class="section-title main-text-color">
             ĐỐI TÁC
         </div>
-        <div class="companion-list">
-            <div class="row row-cols-5">
-                <div class="col">
-                    <div class="companion-logo">
-                        <a href="#">
-                            <img src="img/companion/sota.jpg" alt="">
-                        </a>
-                    </div>
+        <div class="owl-carousel owl-theme owl-companion">
+            <div class="owl-companion-item">
+                <div class="companion-logo">
+                    <a href="#">
+                        <img src="img/companion/sota.jpg" alt="">
+                    </a>
                 </div>
-                <div class="col">
-                    <div class="companion-logo">
-                        <a href="#">
-                            <img src="img/companion/vietcombank.png" alt="">
-                        </a>
-                    </div>
+            </div>
+            <div class="owl-companion-item">
+                <div class="companion-logo">
+                    <a href="#">
+                        <img src="img/companion/vietcombank.png" alt="">
+                    </a>
                 </div>
-                <div class="col">
-                    <div class="companion-logo">
-                        <a href="#">
-                            <img src="img/companion/amazon.png" alt="">
-                        </a>
-                    </div>
+            </div>
+            <div class="owl-companion-item">
+                <div class="companion-logo">
+                    <a href="#">
+                        <img src="img/companion/lazada.png" alt="">
+                    </a>
                 </div>
-                <div class="col">
-                    <div class="companion-logo">
-                        <a href="#">
-                            <img src="img/companion/lazada.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="companion-logo">
-                        <a href="#">
-                            <img src="img/companion/thegioididong.png" alt="">
-                        </a>
-                    </div>
+            </div>
+            <div class="owl-companion-item">
+                <div class="companion-logo">
+                    <a href="#">
+                        <img src="img/companion/thegioididong.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -516,43 +515,46 @@
         <div class="container">
             <div class="row row-cols-4">
                 <div class="col">
-                    <div class="section-title second-color">
-                        THIẾT KẾ NỘI THẤT XÂY DỰNG
+                    <div class="footer-title second-color">
+                        THIẾT KẾ NỘI THẤT
                     </div>
-                    <b><u>Địa chỉ:</u></b> 123 Ung Văn Khiêm Quận Bình Thạnh TP.Hồ Chí Minh
-                    <br>
-                    <b><u>Hot line:</u></b> 0392710368 A Duy - 0939507370 A Sang
-                    <br>
-                    <b><u>Email:</u></b> duysang.abc@gmail.com
-                    <br>
-                    <b><u>Website:</u></b> <a class="text-dark" href="#">noithatduysang.com</a>
+                    <div class="text-white">
+                        <b><u>Địa chỉ:</u></b> 123 Ung Văn Khiêm Quận Bình Thạnh TP.Hồ Chí Minh
+                        <br>
+                        <b><u>Hot line:</u></b> 0392710368 A Duy - 0939507370 A Sang
+                        <br>
+                        <b><u>Email:</u></b> duysang.abc@gmail.com
+                        <br>
+                        <b><u>Website:</u></b> <a class="text-white" href="#">noithatduysang.com</a>
+                    </div>
 
                 </div>
                 <div class="col">
-                    <div class="section-title second-color">
+                    <div class="footer-title second-color">
                         DỊCH VỤ
                     </div>
-                    <a class="text-dark text-decoration-none" href="#">XÂY NHÀ</a> <br>
-                    <a class="text-dark text-decoration-none" href="#">SỬA CHỮA NHÀ</a> <br>
-                    <a class="text-dark text-decoration-none" href="#">THẠCH CAO</a> <br>
-                    <a class="text-dark text-decoration-none" href="#">SƠN NƯỚC</a> <br>
-                    <a class="text-dark text-decoration-none" href="#">TRANG TRÍ NỘI THẤT</a>
+                    <a class="text-white text-decoration-none" href="#">XÂY NHÀ</a> <br>
+                    <a class="text-white text-decoration-none" href="#">SỬA CHỮA NHÀ</a> <br>
+                    <a class="text-white text-decoration-none" href="#">THẠCH CAO</a> <br>
+                    <a class="text-white text-decoration-none" href="#">SƠN NƯỚC</a> <br>
+                    <a class="text-white text-decoration-none" href="#">TRANG TRÍ NỘI THẤT</a>
                 </div>
                 <div class="col">
-                    <div class="section-title second-color">
+                    <div class="footer-title second-color">
                         FANPAGE
                     </div>
                     <iframe
+                    class="border border-dark"
                         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                         width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                         allowfullscreen="true"
                         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
                 <div class="col">
-                    <div class="section-title second-color">
+                    <div class="footer-title second-color">
                         ĐĂNG KÝ NHẬN TIN
                     </div>
-                    <div class="input-group mb-3 position-relative">
+                    <div class="input-group mt-3 mb-3 position-relative">
                         <input type="text" class="form-control rounded-pill" placeholder="Nhập địa chỉ email"
                             aria-label="Username" aria-describedby="email">
                         <div class="input-group-prepend">
@@ -560,16 +562,37 @@
                                 id="email"> Đăng Ký </span>
                         </div>
                     </div>
+                    <div class="linkgroup d-flex justify-content-center mt-2">
+                        <a href="#">
+                            <img class="p-2" src="img/icon/facebook.webp" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="p-2" src="img/icon/zalo.webp" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="p-2" src="img/icon/instagram.webp" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="p-2" src="img/icon/youtube.webp" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="p-2" src="img/icon/tiktok.webp" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="text-center border border-warning">
+    <footer class="text-center border border-warning bg-warning text-secondary">
         <i class="fa-regular fa-copyright"></i> Copyright 2022 thiết kế nội thất Duy Sang by Sotagroup.vn
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
     </footer>
 </body>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="javascript.js"></script>
 </html>
